@@ -245,6 +245,14 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.quote__text {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 300;
+	line-height: 1.2;
+	font-size: calc(1.375rem + 1.5vw);
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -258,6 +266,9 @@ input[type="submit"] {
 	}
 	#about-me__introduction, #about-me p {
 		width: 100%;
+	}
+	.quote__text{
+		font-size: calc(1.375rem + 1.5vw);
 	}
 }
 
