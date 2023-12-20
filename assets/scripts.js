@@ -13,3 +13,10 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    function onSubmitForm(event) {
+        event.preventDefault();
+    }
+    document.querySelector('.form-container form').addEventListener('submit', onSubmitForm);
+})
